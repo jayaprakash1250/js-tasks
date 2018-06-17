@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Task1(a)</title>
+	
+</head>
+<body>
+	<p id="p">Which Country Your from?</p>
+	<button type="button"  onclick="answer()">Click Answer</button> 
+	<script type="text/javascript">
+		function answer()
+		{
+			var a=document.getElementById("p").innerHTML;
+			var r=a.replace("Which Country Your from?","I'm from india");
+			document.getElementById("p").innerHTML=r;
+		}
+	</script>
+</body>
+</html>
